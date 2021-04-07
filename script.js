@@ -1,7 +1,7 @@
 "use strict";
 
 setInterval(() => {
-	const date = new Date(2021, 3, 7).getTime();
+	const date = new Date(2021, 3, 7, 18, 5).getTime();
 	let now = new Date();
 	let countFrom = new Date(date);
 	let timeDifference = (now - date);
